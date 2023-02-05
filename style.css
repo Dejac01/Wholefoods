@@ -1,0 +1,245 @@
+body{background-color: white;
+    height: 280vh;
+    font-family: Arial, Helvetica, sans-serif;;
+}
+
+
+.title{ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large; color: black; text-align: center;
+
+}
+
+.foodContainer{
+   /* border: solid white; */
+    height: 125vh;
+     background-color: white;
+     
+    
+    }
+
+ .rowone, .rowtwo, .rowThree, .rowFour, .rowFive, .rowSix{
+   /*  border:solid white; */
+        height:25%; 
+        width: 100%;
+        margin: 12px;
+         display: flex;
+         justify-content: space-between;}
+       
+
+.block{border: solid white;
+width: 33%;
+}
+
+.pic{
+    /*border: solid white; */
+      width: 90%;
+      height: 90%;
+      margin-left: auto;
+      margin-right: auto;
+     
+}
+
+.food{
+    /* border: solid white; */
+     height: 10%; text-align: center;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: small; color: #003200;
+     text-decoration: underline;
+     
+    }
+
+
+
+
+
+
+     .mainImage{
+        margin-top: 30px;
+        width: 100%;
+        margin-left: 50px;
+        height: 90vh;
+    }
+    .mainPara{
+        /* border: solid black; */
+        width: 80vh;
+        position: absolute;
+        top: 60vh;
+        left: 50px;
+        background-color: white;
+        font-size: 1.12em;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin-bottom: 15px;
+        
+    }
+
+
+    .menuContainer{
+        /* border: solid black; */
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        height: 70px;
+        background-color: #003200;
+        font-family: Arial, Helvetica, sans-serif;;
+    }
+    .logo{
+         /* border: solid magenta; */ 
+        width: 15%;
+        margin-left: 15px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border-right: solid white;
+    }
+    .menu{
+        /* border: solid blue; */
+        width: 55%;
+    }
+    .searchbar{
+        /* border: solid yellow; */
+        width: 25%;
+    }
+    .listLogin{
+        /* border: solid green; */
+        width: 10%;
+    }
+    .menulist{
+        list-style-type: none;
+        display: flex;
+        justify-content: space-evenly;
+        padding: 0;
+        margin-top: 20px;
+    }
+    .menuItem{
+        display: inline;
+        font-size: 1.2em;
+        font-weight: bold;
+        color: white;
+    }
+    .menuItem:hover{
+        cursor: pointer;
+        border-bottom: solid white;
+    }
+    .searchInput{
+        width:90%;
+        height: 30px;
+        margin: 10px;
+        margin-top: 15px;
+    }
+    .listLogin{
+        display: flex;
+        justify-content: space-around;
+        margin: 10px;
+        
+    }
+    .login{
+        font-size: 1.2em;
+        font-weight: bold;
+        color: white;
+        margin-top: 10px;
+    }
+    .login:hover{
+        cursor: pointer;
+        border-bottom: solid white;
+    }
+    .list{
+        display: flex;
+        justify-content: space-evenly;
+        padding-right: 8px;
+    }
+    .listText{
+        font-size: 1.2em;
+        font-weight: bold;
+        color: white;
+        margin-top: 10px;
+    }
+    .listText:hover{
+        cursor: pointer;
+        border-bottom: solid white;
+        
+    }
+    .listIcon{
+        width: 25%;
+        margin-bottom: 10px;
+    }
+
+
+    footer{
+        display: grid;
+        margin-top: 100vh;
+        background-color: #003200;
+    }
+    .footerLogo{
+        /* border: solid black; */
+    }
+    .mapfooter{
+        /* border: solid magenta; */
+        height: 50vh;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+    }
+    .footerMenu{
+        height: 12vh;
+        background-color: #025c02;
+        color: white;
+    }
+    .map1{
+        width: 23%;
+        /* border: solid white; */
+        font-weight: bold;
+        padding: 2%;
+    }
+    .map2{
+        width: 23%;
+        /* border: solid white; */
+        font-weight: bold;
+        padding: 2%;
+    }
+    .map3{
+        width: 23%;
+        /* border: solid white; */
+        font-weight: bold;
+    }
+    .map4{
+        width: 23%;
+        /* border: solid white; */
+        font-weight: bold;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between; 
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+    .map1title{
+        font-size: 1.5em;
+    }
+    .listMap1{
+        list-style: none;
+        padding-left: 0;
+       
+    }
+    .listMap1Item{
+        padding: 3px;
+        
+    }
+    .emailsign{
+        background-color: #003200;
+        color: white;
+        padding: 5%;
+        width: 60%;
+        border-color: white;
+        font-weight: bold;
+    }
+    .footMenuList{
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+    }
+    .footmenuItem{
+        display: inline;
+        width: 7%;
+        font-size: .9em;
+    }
+    .longfootmenuItem{
+        width: 25%;
+    }
